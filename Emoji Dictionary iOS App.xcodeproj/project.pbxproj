@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		734A93F51F6EE1DD001DA40F /* emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A93F41F6EE1DD001DA40F /* emoji.swift */; };
 		7399BF251F645E9400B8AF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7399BF241F645E9400B8AF4E /* AppDelegate.swift */; };
 		7399BF271F645E9400B8AF4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7399BF261F645E9400B8AF4E /* ViewController.swift */; };
 		7399BF2A1F645E9400B8AF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7399BF281F645E9400B8AF4E /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		734A93F41F6EE1DD001DA40F /* emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoji.swift; sourceTree = "<group>"; };
 		7399BF211F645E9400B8AF4E /* Emoji Dictionary iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7399BF241F645E9400B8AF4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7399BF261F645E9400B8AF4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		7399BF181F645E9400B8AF4E = {
 			isa = PBXGroup;
 			children = (
+				734A93F41F6EE1DD001DA40F /* emoji.swift */,
 				7399BF231F645E9400B8AF4E /* Emoji Dictionary iOS App */,
 				7399BF221F645E9400B8AF4E /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				7399BF271F645E9400B8AF4E /* ViewController.swift in Sources */,
 				7399BF251F645E9400B8AF4E /* AppDelegate.swift in Sources */,
+				734A93F51F6EE1DD001DA40F /* emoji.swift in Sources */,
 				7399BF371F64720800B8AF4E /* EmojiDefinitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +324,7 @@
 				7399BF351F645E9400B8AF4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
